@@ -1,0 +1,32 @@
+{
+    "name": "terdia/consoletvs-charts-clone",
+    "description": "The missing charting library on laravel, powered by Chartisan",
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": ">=7.4",
+        "illuminate/contracts": "^7.14.1|^8.0",
+        "illuminate/http": "^7.14.1|^8.0",
+        "illuminate/console": "^7.14.1|^8.0",
+        "illuminate/support": "^7.14.1|^8.0",
+        "terdia/chartisan-php-clone": "1.2.1"
+    },
+    "authors": [
+        {
+            "name": "Terry Osayawe",
+            "email": "terrymarcy2000@yahoo.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ConsoleTVs\\Charts\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ConsoleTVs\\Charts\\ChartsServiceProvider"
+            ]
+        }
+    }
+}
